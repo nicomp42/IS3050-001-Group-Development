@@ -8,5 +8,10 @@ namespace IS3050_001_Group_Development
 {
     internal class iqbalza
     {
+        public static void HappyHalloween()
+        {
+            Console.WriteLine("My name is Zoha and I like skittle ");
+        }
+
     }
 }
