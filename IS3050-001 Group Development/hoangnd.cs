@@ -8,5 +8,11 @@ namespace IS3050_001_Group_Development
 {
     internal class hoangnd
     {
+        public void HappyHalloween()
+        {
+            Console.WriteLine("Nate Hoang and Twix"); 
+        }
+        
     }
 }
+ 
