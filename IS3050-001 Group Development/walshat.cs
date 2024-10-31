@@ -8,5 +8,9 @@ namespace IS3050_001_Group_Development
 {
     internal class walshat
     {
+        public static void HappyHalloween()
+        {
+            Console.WriteLine("Name: Anthony Walsh   Favorite Candy: Reeses");
+        }
     }
 }
