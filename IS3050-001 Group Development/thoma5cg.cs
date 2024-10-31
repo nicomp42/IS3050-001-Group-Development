@@ -10,7 +10,7 @@ namespace IS3050_001_Group_Development
     {
         public void HappyHalloween()
         {
-            Console.WriteLine("Connor Thomas and my favorite candy is Sweet Tarts");
+            Console.WriteLine("Connor Thomas, and my favorite candy is Sweet Tarts");
         }
     }
 }
