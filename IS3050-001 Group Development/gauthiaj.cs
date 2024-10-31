@@ -8,5 +8,13 @@ namespace IS3050_001_Group_Development
 {
     internal class gauthiaj
     {
+
+        public void HappyHalloween()
+        {
+            Console.WriteLine("My name is Andrea and my favorite candy is Kit-Kats!");
+        }
+      
+        
+        
     }
 }
