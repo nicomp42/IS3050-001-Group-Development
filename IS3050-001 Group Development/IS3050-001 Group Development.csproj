@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{09E341D4-33BC-44C1-9412-206F83EC95F5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>IS3050_001_Group_Development</RootNamespace>
+    <AssemblyName>IS3050-001 Group Development</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adcockjb.cs" />
+    <Compile Include="alkhawoe.cs" />
+    <Compile Include="aynampru.cs" />
+    <Compile Include="beckerd8.cs" />
+    <Compile Include="bellofdk.cs" />
+    <Compile Include="bellzj.cs" />
+    <Compile Include="bockps.cs" />
+    <Compile Include="bolinen.cs" />
+    <Compile Include="brumfijb.cs" />
+    <Compile Include="carfornc.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Class3.cs" />
+    <Compile Include="Class4.cs" />
+    <Compile Include="crookscl.cs" />
+    <Compile Include="danieldu.cs" />
+    <Compile Include="driehajl.cs" />
+    <Compile Include="elmorels.cs" />
+    <Compile Include="gauthiaj.cs" />
+    <Compile Include="geierml.cs" />
+    <Compile Include="grayemnm.cs" />
+    <Compile Include="gueyene.cs" />
+    <Compile Include="hallibgl.cs" />
+    <Compile Include="happelrc.cs" />
+    <Compile Include="hoangnd.cs" />
+    <Compile Include="iqbalza.cs" />
+    <Compile Include="ishizuko.cs" />
+    <Compile Include="jacobry.cs" />
+    <Compile Include="james2c4.cs" />
+    <Compile Include="king4sl.cs" />
+    <Compile Include="manuelhv.cs" />
+    <Compile Include="nairap.cs" />
+    <Compile Include="painjavv.cs" />
+    <Compile Include="patel3jc.cs" />
+    <Compile Include="patilsg.cs" />
+    <Compile Include="phanpv.cs" />
+    <Compile Include="powela9.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="radclilr.cs" />
+    <Compile Include="ranava.cs" />
+    <Compile Include="samsds.cs" />
+    <Compile Include="sharpenn.cs" />
+    <Compile Include="shinkecj.cs" />
+    <Compile Include="siddiqaf.cs" />
+    <Compile Include="siddiqas.cs" />
+    <Compile Include="slivinmb.cs" />
+    <Compile Include="stampejp.cs" />
+    <Compile Include="thoma5cg.cs" />
+    <Compile Include="vaseylh.cs" />
+    <Compile Include="walshat.cs" />
+    <Compile Include="wolfeaw.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
