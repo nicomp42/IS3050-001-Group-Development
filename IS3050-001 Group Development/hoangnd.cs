@@ -10,7 +10,7 @@ namespace IS3050_001_Group_Development
     {
         public void HappyHalloween()
         {
-            Console.WriteLine("Nate Hoang, Twix"); 
+            Console.WriteLine("Nate Hoang and Twix"); 
         }
         
     }
