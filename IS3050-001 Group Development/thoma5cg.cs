@@ -8,5 +8,9 @@ namespace IS3050_001_Group_Development
 {
     internal class thoma5cg
     {
+        public void HappyHalloween()
+        {
+            Console.WriteLine("Connor Thomas and my favorite candy is Sweet Tarts");
+        }
     }
 }
