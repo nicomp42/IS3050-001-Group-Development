@@ -8,5 +8,9 @@ namespace IS3050_001_Group_Development
 {
     internal class patel3jc
     {
+        static void HappyHalloween()
+        {
+            Console.WriteLine("Jaanvi likes chocolate");
+        }
     }
 }
